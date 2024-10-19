@@ -1,6 +1,7 @@
-# Optimization of Piezoelectric Energy Harvesting Systems
+# Optimization of Piezoelectric Energy Harvesting Systems (Stun Shoe)
 
 This project aims to optimize the energy harvesting capability of piezoelectric systems embedded in shoes (Stun Shoe). By utilizing machine learning models, the system predicts optimal configurations and adjustments to maximize energy harvested from footfalls. The hardware collects data related to the energy output and factors influencing it, and the ML models analyze and optimize the process.
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,6 +14,12 @@ This project aims to optimize the energy harvesting capability of piezoelectric 
 - [Acknowledgments](#acknowledgments)
 
 ## Introduction
+In my first year of college, I initiated a project titled Stun Shoe, which I led in collaboration with two fellow freshmen. This endeavor was inspired by the troubling news articles I frequently encountered regarding the exploitation of women, motivating me to create a meaningful impact.
+
+Stun Shoe employed piezoelectric cells that functioned in conjunction with a machine learning model to optimize energy harvesting. This marked my initial exposure to machine learning, and I was captivated by how a straightforward XGBoost model could analyze over 120,000 data points to predict and enhance the final energy output from the piezoelectric discs. One significant challenge we faced was the presence of noise in the footfall data. I recognized that these patterns varied based on distinct activities, points of impact, and surfaces. To address this, we innovatively applied Reinforcement Learning techniques utilizing DQN and PPO algorithms.
+
+Our project garnered recognition at my department's expo, where we achieved first runner-up. This experience profoundly deepened my interest in machine learning, illuminating its vast potential and diverse applications.
+
 Piezoelectric materials generate electricity when subjected to mechanical stress, such as walking or running. The **Stun Shoe** project incorporates piezoelectric systems into footwear, aiming to optimize the amount of energy harvested from each footfall using advanced machine learning techniques. This optimization seeks to improve the efficiency of energy harvesting systems in practical, real-world scenarios.
 
 ## Objective
